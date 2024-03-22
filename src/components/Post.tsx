@@ -96,7 +96,7 @@ export function Post({ author, publishedAt, content }: PostProps) {
                </div>
 
                <form onSubmit={handleCreateNewComment} className={styles.commentForm}>
-                    <strong>Deixe seu feedbak</strong>
+                    <strong>Deixe seu feedback</strong>
 
                     <textarea 
                          name="comment"
